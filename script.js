@@ -8,7 +8,7 @@ function deepClone(array) {
             newArray.push(array[i])
         }
     }
-    console.log(newArray)
+    console.log(`${newArray}`)
     return newArray;
 
 }
